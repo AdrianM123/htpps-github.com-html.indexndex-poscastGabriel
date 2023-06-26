@@ -1,0 +1,58 @@
+
+.jusificado{
+    text-align: justify;
+}
+.centro {
+  text-align: center;
+}
+
+.navbar {
+  display: flex; 
+  background-color: #0b5ed7;
+  color: #0b5ed7;
+
+}
+
+.column {
+  flex: 1;
+  text-align: center;
+  background-color: darkblue;
+  padding: 10px;
+
+  
+}
+
+.column a {
+  text-decoration: none;
+  color: white ;
+  transition: color 0.3s ease;
+}
+
+.column a:hover {
+  color: white ; 
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.image-container img:hover {
+  opacity: 0.8;
+}
+
+.image-container img:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.image-container img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+
+.borde{
+    border: 5px #0f5132
+}
+
+.centro{
+    align-content: center;
+}
